@@ -1,3 +1,5 @@
 [build]
   publish = "public/"
   functions = "functions/"
+  # See https://docs.netlify.com/functions/configure-and-deploy/#configure-the-functions-folder
+  command = "#"
